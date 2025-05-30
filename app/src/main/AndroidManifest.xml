@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/image_splash1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/image_splash1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LearningAndroidDev"
+        tools:targetApi="31">
+        <activity
+            android:name=".RecyclerViewDetailsActivityOne"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidDemoAnimatedSplashScreenOne"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AndroidDemoNotificationsOne"
+            android:exported="true" />
+        <activity
+            android:name=".AndroidDemoDatePickerOne"
+            android:exported="true" />
+        <activity
+            android:name=".AndroidDemoViewPager2One"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidDemoAlertDialogBoxOne"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidDemoSpinnerOne"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidDemoRecyclerViewOne"
+            android:exported="true" />
+        <activity
+            android:name=".AndroidDemoListViewOne"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidSecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.App.SplashScreen" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

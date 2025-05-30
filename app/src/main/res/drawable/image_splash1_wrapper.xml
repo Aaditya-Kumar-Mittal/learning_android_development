@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:width="172dp"
+        android:height="172dp"
+        android:drawable="@color/yellow_400" />
+
+    <item
+        android:width="91dp"
+        android:height="91dp"
+        android:drawable="@drawable/image_splash1"
+        android:gravity="center" />
+
+</layer-list>

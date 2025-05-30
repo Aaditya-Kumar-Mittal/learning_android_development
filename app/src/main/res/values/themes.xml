@@ -1,0 +1,23 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LearningAndroidDev" parent="Theme.Material3.Light.NoActionBar">
+        <!-- This section is for parent theme of App Theme-->
+
+        <item name="colorPrimary">@color/blue_400</item>
+        <item name="colorPrimaryVariant">@color/blue_400</item>
+        <item name="android:statusBarColor">@color/blue_400</item>
+
+    </style>
+
+    <style name="Theme.LearningAndroidDev" parent="Base.Theme.LearningAndroidDev">
+        <item name="colorPrimary">@color/blue_400</item>
+        <item name="colorPrimaryVariant">@color/blue_400</item>
+        <item name="android:statusBarColor">@color/blue_400</item>
+    </style>
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/yellow_400</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/image_splash1_wrapper</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.LearningAndroidDev</item>
+    </style>
+</resources>
